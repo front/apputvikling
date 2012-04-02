@@ -1,0 +1,12 @@
+---
+layout: post
+title: Utvikling av apps for iOS (iPhone, iPad og iPod Touch)
+---
+
+iOS er den største plattformen, bla bla.
+
+Stikkord: 
+
+- Få app godkjent
+- Alternative utviklingsplattformer
+- SEO!!1!
