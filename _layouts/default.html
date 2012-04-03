@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Apputvikling: Utvkling av apps for iPhone + Android + HTML5</title>
+    <title> {% if page.title %} {{ page.title }} | {% endif %} Utvkling av apps for iPhone + Android + HTML5</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -45,6 +45,9 @@
                 <a href="/html5-vs-app">Mobil web vs ekte app</a>
               </li>
               <li class="">
+                <a href="/referanser/">Referanser</a>
+              </li>
+              <li class="">
                 <a href="/kontakt">Kontakt</a>
               </li>
             </ul>
@@ -77,7 +80,7 @@
      <!-- Footer
       ================================================== -->
       <footer class="footer">
-        <p><a href="http://www.apputvikling.no">Apptutvikling.no</a> er en avdeling av <a href="">Front</a>, og holder til i Gamlebyen i Fredrikstad.</p>
+        <p><a href="http://www.apputvikling.no">Apputvikling.no</a> er en avdeling av <a href="">Front</a>, og holder til i Gamlebyen i Fredrikstad.</p>
       </footer>
 
     </div><!-- /container -->
@@ -88,8 +91,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="/js/jquery.js"></script>
-    <script src="/js/google-code-prettify/prettify.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="/js/bootstrap-transition.js"></script>
     <script src="/js/bootstrap-alert.js"></script>
     <script src="/js/bootstrap-modal.js"></script>
