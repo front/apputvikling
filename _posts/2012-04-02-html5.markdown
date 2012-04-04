@@ -3,3 +3,4 @@ layout: post
 title: Utvikling av apps som HTML5
 ---
 
+Fra sent 2010 har responsive/adaptive web design vært på alles lepper, og det med god grunn; med det store inntoget CSS3 media queries, har layout tilpasset skjermbredde fremfor device gitt webapps reell mulighet til å ha én felles kodebase. I stadig flere caser er dette det beste alternativet til native apps.
