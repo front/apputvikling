@@ -50,3 +50,11 @@ body {
   line-height: 1;
   display: block;
 }
+
+#posts img {
+  display: block;
+}
+
+.marketing {
+  margin-top: -19px;
+}
