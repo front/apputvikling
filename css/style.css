@@ -5,3 +5,9 @@
 body {
   background: #efefef;
 }
+
+@media (min-width: 980px) {
+  body {
+    padding-top: 58px;
+  }
+}
