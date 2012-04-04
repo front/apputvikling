@@ -9,5 +9,5 @@ Det internasjonale drupalmiljøet er særdeles bevisst på den mobile revolusjon
 
 - Fungerer glimrende for å utvikle velfungerende mobile sider, både responsive og 'rene' mobilsider
 - God støtte for web services. Web services er et system som gjør det mulig for ulike systemer å snakke sammen via lettvektformater som XML og JSON og arkitekturer som REST. La oss ta noen eksempler
--- Du har en nettside, men vil la brukere sende inn informasjon fra en app eller webapplikasjon.
--- Du vil la en app bruke informasjon som er i stadig endring, for eksempel en kalender på applikasjonen som oppdateres fra en drupal backend.
+1. Du har en nettside, men vil la brukere sende inn informasjon fra en app eller webapplikasjon.
+2. Du vil la en app bruke informasjon som er i stadig endring, for eksempel en kalender på applikasjonen som oppdateres fra en drupal backend.
