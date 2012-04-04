@@ -76,27 +76,27 @@
 
     <div class="row">
   <div class="span8">
-    <form class="form-horizontal">
+    <form class="form-horizontal" method="post" action="mailme.php">
         <fieldset>
           <legend>Ja, jeg ønsker tilbud på utvikling av utvikling av applikasjon</legend>
           <div class="control-group">
-            <label class="control-label" for="input01">Navn/foretak</label>
+            <label class="control-label" for="name">Navn/foretak</label>
             <div class="controls">
-              <input type="text" class="span3" id="input01">
+              <input type="text" class="span3" id="name" name="name">
             </div>
           </div>
           <div class="control-group">
-            <label class="control-label" for="prependedInput">Min e-post</label>
+            <label class="control-label" for="email">Min e-post</label>
             <div class="controls">
               <div class="input-prepend">
-                <span class="add-on">@</span><input class="span3" id="prependedInput" size="16" type="email">
+                <span class="add-on">@</span><input class="span3" size="16" type="email" id="email" name="email">
               </div>
             </div>
           </div>
           <div class="control-group">
-            <label class="control-label" for="select01">Velg plattform</label>
+            <label class="control-label" for="subject">Velg plattform</label>
             <div class="controls">
-              <select id="select01">
+              <select id="subject" name="subject">
                 <option>iPhone</option>
                 <option>Android</option>
                 <option>HTML5</option>
@@ -108,9 +108,9 @@
           </div>
 
           <div class="control-group">
-            <label class="control-label" for="textarea">Kort beskrivelse av app-en</label>
+            <label class="control-label" for="message">Kort beskrivelse av app-en</label>
             <div class="controls">
-              <textarea class="input-xlarge" id="textarea" rows="3"></textarea>
+              <textarea class="input-xlarge" rows="3" id="message" name="message"></textarea>
               <p class="help-block">In addition to freeform text, any HTML5 text-based input appears like so.</p>
             </div>
           </div>
@@ -132,6 +132,7 @@
     <img src="/img/kitteh.png" />
   </div>
 </div>
+
     <br>
 
      <!-- Footer
