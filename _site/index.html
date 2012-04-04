@@ -15,7 +15,19 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+  <script type="text/javascript">
 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30600330-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  </script>
   </head>
 
   <body data-spy="scroll" data-target=".subnav" data-offset="50">
@@ -83,7 +95,7 @@
   <hr class="soften">
 
   <section class="center">
-    <h1>Utvikling av <em>mobile</em> applikasjoner for iOS og Android.</h1>
+    <h1>Leverandør av <em>mobile</em> applikasjoner for iOS og Android.</h1>
     <h6 class="marketing-byline">Design, utvikling og vedlikehold av apps for iOS, Android, Blackberry og Windows.</h6>
   </section>
 
@@ -92,7 +104,7 @@
   <div class="row">
     <div class="span4">
       <h2 class="icons-ios"><a href="/ios/">iPhone + iPad (iOS)</a></h2>
-      <p>Fortsatt har Apple det mest lukrative markedet innen apps, med en god modell for distribusjon, og med enestående produkter. Vi hjelper deg fram til Appstore og videre!</p>
+      <p>Fortsatt har Apple det mest lukrative markedet innen apps, med en god modell for distribusjon, og med enestående produkter. Som stolt leverandør hjelper vi deg fram til Appstore -og videre til topps!</p>
     </div>
     <div class="span4">
       <h2 class="icons-android"><a href="/android/">Android mobil + tablet</a></h2>
@@ -156,56 +168,48 @@
               <h3>Kontakt oss</h3>
             </div>
             <div class="modal-body">
-              <form class="form-horizontal">
-        <fieldset>
-          <div class="control-group">
-            <label class="control-label" for="input01">Navn/foretak</label>
-            <div class="controls">
-              <input type="text" class="span3" id="input01">
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="prependedInput">Min e-post</label>
-            <div class="controls">
-              <div class="input-prepend">
-                <span class="add-on">@</span><input class="span3" id="prependedInput" size="16" type="email">
-              </div>
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="select01">Velg plattform</label>
-            <div class="controls">
-              <select id="select01">
-                <option>iPhone</option>
-                <option>Android</option>
-                <option>HTML5</option>
-                <option>Windows</option>
-                <option>Blackberry</option>
-                <option>Flere plattformer</option>
-              </select>
-            </div>
-          </div>
+              <form class="form-horizontal" method="post" action="/kontakt/mailme.php">
+                <fieldset>
+                  <div class="control-group">
+                    <label class="control-label" for="name">Navn/foretak</label>
+                    <div class="controls">
+                      <input type="text" class="span3" id="name" name="name">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="email">Min e-post</label>
+                    <div class="controls">
+                      <div class="input-prepend">
+                        <span class="add-on">@</span><input class="span3" size="16" type="email" id="email" name="email">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="subject">Velg plattform</label>
+                    <div class="controls">
+                      <select id="subject" name="subject">
+                        <option>iPhone</option>
+                        <option>Android</option>
+                        <option>HTML5</option>
+                        <option>Windows</option>
+                        <option>Blackberry</option>
+                        <option>Flere plattformer</option>
+                      </select>
+                    </div>
+                  </div>
 
-          <div class="control-group">
-            <label class="control-label" for="textarea">Kort beskrivelse av app-en</label>
-            <div class="controls">
-              <textarea class="input-xlarge" id="textarea" rows="3"></textarea>
-              <p class="help-block">In addition to freeform text, any HTML5 text-based input appears like so.</p>
-            </div>
-          </div>
-          <div class="control-group">
-            <div class="controls">
-              <label class="checkbox">
-                <input type="checkbox" id="optionsCheckbox" value="option1">
-                Option one is this and that.
-              </label>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="submit" class="btn btn-primary">Send forespørsel</button>
-          </div>
-        </fieldset>
-      </form>
+                  <div class="control-group">
+                    <label class="control-label" for="message">Kort beskrivelse av app-en</label>
+                    <div class="controls">
+                      <textarea class="input-xlarge" rows="3" id="message" name="message"></textarea>
+                      <p class="help-block">In addition to freeform text, any HTML5 text-based input appears like so.</p>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Send forespørsel</button>
+                  </div>
+                </fieldset>
+              </form>
             </div>
           </div>
           <div class="span4">
@@ -218,6 +222,7 @@
 </div><!-- /.marketing -->
 
 <hr class="soften">
+
     <br>
 
      <!-- Footer
