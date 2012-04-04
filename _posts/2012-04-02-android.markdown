@@ -3,4 +3,8 @@ layout: post
 title: Utvikling av apps for Android mobil og tablet
 ---
 
-Tekst her
+Android har vokst seg til å bli en gigantisk og banebrytende plattform på det mobile markedet. Med stor grad av åpen kildekode og et bredt spekter av telefon og tabletprodusenter er dette en mer uforutsigbar plattform enn iOS men utviklingen er minst like rivende. Her er noen kalde fakta:
+
+- 850.000 nye enheter blir aktivert hver dag
+- 10 milliarder nedlastede apper ble nådd i desember 2011
+- Nordmenn er faktisk på topp ti i nedlastede applikasjoner per capita.

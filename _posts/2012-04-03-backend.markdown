@@ -3,4 +3,11 @@ layout: post
 title: Backend for mobile applikasjoner
 ---
 
-Tekst om Drupal
+Drupal er et gratis publiseringsrammeverk (CMS) med åpen kildekode. Det betyr i praksis at det er titusenvis av utviklere som jobber med å forbedre det hver dag. Det finnes over 15000 brukergenererte moduler som gjør nettutviklere i stand til å komme fort i gang med nettsider av praktisk talt alle typer
+
+Det internasjonale drupalmiljøet er særdeles bevisst på den mobile revolusjonen og jobber aktivt for å posisjonere seg i forhold til dette markedet. Dette gir utslag på særlig to måter:
+
+- Fungerer glimrende for å utvikle velfungerende mobile sider, både responsive og 'rene' mobilsider
+- God støtte for web services. Web services er et system som gjør det mulig for ulike systemer å snakke sammen via lettvektformater som XML og JSON og arkitekturer som REST. La oss ta noen eksempler
+-- Du har en nettside, men vil la brukere sende inn informasjon fra en app eller webapplikasjon.
+-- Du vil la en app bruke informasjon som er i stadig endring, for eksempel en kalender på applikasjonen som oppdateres fra en drupal backend.

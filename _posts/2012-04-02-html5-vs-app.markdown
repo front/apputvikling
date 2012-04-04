@@ -3,4 +3,9 @@ layout: post
 title: HTML5 vs app (trenger jeg en egen app)?
 ---
 
-Egen app vs mobilt nettsted vs responsivt nettsted
+Om man virkelig trenger enn app er egentlig et godt spørsmål. Browserne på smarttelefonene våre blir stadig smartere og implementerer flere og flere av HTML5 spesifikasjonene. Fordelene med en applikasjon fremfor en moderne html5 mobilside avhenger derfor av funksjonaliteten man ønsker.
+
+- Tilgang til native funksjonalitet (for eksempel kamera og kompass)
+- Høy ytelse
+- Native brukeropplevelse
+
