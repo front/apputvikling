@@ -1,6 +1,6 @@
 <?php
 // Redirect if direct access to script
-if( $_SERVER['REQUEST_URI'] == $_SERVER['PHP_SELF']) {
+if( $_SERVER['REQUEST_URI'] == $_SERVER['PHP_SELF'] && $_SERVER['HTTP_X_REQUESTED_WITH'] != 'XMLHttpRequest' ) {
   header('Location: .');
 }
 $result = '';
@@ -23,15 +23,12 @@ if( !empty($_POST) ) {
     ini_set('sendmail_from', $email);
     mail($to, $subject, $contactMessage);
 
-    $result = "Your message has been sent! Thank you for contacting us! :)";
+    $result = '<div class="alert alert-success">Your message has been sent! Thank you for contacting us! :)</div>';
     $_POST = array();
   }
   else {
-    $result = "Ooops! It appears your email address is not valid! :(";
+    $result = '<div class="alert alert-error">Ooops! It appears your email address is not valid! :(</div>';
   }
 }
-?>
 
-<?php if (!empty($result)): ?>
-  <p class="msg"><?php print $result; ?></p>
-<?php endif ?>
+print $result;
