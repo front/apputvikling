@@ -23,11 +23,11 @@ if( !empty($_POST) ) {
     ini_set('sendmail_from', $email);
     mail($to, $subject, $contactMessage);
 
-    $result = '<div class="alert alert-success">Your message has been sent! Thank you for contacting us! :)</div>';
+    $result = '<div class="alert alert-success">Takk for din henvendelse! Vi kontakter deg snarlig. God dag!</div>';
     $_POST = array();
   }
   else {
-    $result = '<div class="alert alert-error">Ooops! It appears your email address is not valid! :(</div>';
+    $result = '<div class="alert alert-error">Ooops! E-postadressen du har oppgitt, er ikke korrekt.</div>';
   }
 }
 
