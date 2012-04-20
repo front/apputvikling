@@ -11,4 +11,4 @@ Om man virkelig trenger enn app er faktisk et ganske godt spørsmål. Browserne 
 - Hvor høy ytelse må jeg ha
 - I hvor stor grad vil jeg ha en native brukeropplevelse
 
-Ved valg av plattform er det viktig å ta hensyn til markedet man ser for seg. Vi ser for oss en fremtid der de fleste applikasjoner som skal nå ut til et stort internasjonalt fortsatt vil være preget av native apps, mens apper med et begrenset lokalt publikum vil være en form for hybrid
+Ved valg av plattform er det viktig å ta hensyn til markedet man ser for seg. Vi ser for oss en fremtid der de fleste applikasjoner som skal nå ut til et stort internasjonalt fortsatt vil være preget av native apps, mens apper med et begrenset lokalt publikum vil være en form for hybrid.
