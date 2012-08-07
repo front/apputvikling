@@ -4,7 +4,7 @@ if( $_SERVER['REQUEST_URI'] == $_SERVER['PHP_SELF'] && $_SERVER['HTTP_X_REQUESTE
   header('Location: .');
 }
 $result = '';
-$to = 'perandre@front.no';
+$to = 'post@front.no';
 
 // spam check
 if( !empty($_POST) ) {
