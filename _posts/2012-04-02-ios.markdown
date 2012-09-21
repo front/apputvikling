@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Utvikling av apps for iOS (iPhone, iPad og iPod Touch)
+title: Utvikle apps for iPhone + iPad?
 ---
-**Fortsatt har Apple det mest lukrative markedet innen apps, med en god modell for distribusjon, og med enestående produkter. Som stolt leverandør hjelper vi deg fram til Appstore -og videre til topps!**
+**Fortsatt har Apple det mest lukrative markedet innen apps, med en god modell for distribusjon, og med enestående produkter. Hos oss vil du få en dyktig iPhoneutvikler eller iPadutvikler til disposisjon, eller et lite team av utviklere i kombinasjon med en designer som kjenner mulighetene i iPhone/iPad grensesnittet.
 
 Helt siden Apple revolusjonerte mobilbransjen med sitt iOS, har de vært en formidabel pådriver for å få brukere vekk fra desktopen og ut i verden ved å gi de verktøy til å gjøre tidligere utenkelige ting med en mobil enhet. iOS har kanskje vært den største enkeltfaktoren i endringene av våre digitale vaner de siden dets inntog.
 
 iOS bygger på Darwin, en versjon av UNIX som også er samme platform som Mac OS X bygger på. Utvikling for iOS må i større eller mindre grad foregå på XCode, Apples eget utviklingsverktøy. Native utvikling skjer på programmeringsspråket Objective-C. 
 
-Distribusjon av iOS apper foregår på Apples egen App Store. Her har Apple full kontroll og de bestemmer selv hvilke applikasjoner som skal godkjennes etter en godkjenningsprosess. Dette har hatt mange positive effekter for plattformen, da Apple for eksempel ikke vil la applikasjoner som stadig krasjer komme ut på App Store. Apples godkjenningsprosess blir (stadig raskere)[http://148apps.biz/app-store-metrics/?mpage=approval] og de fleste apper får nå svar innen 5-6 dager.
+Distribusjon av iOS apper foregår på Apples egen App Store. Her har Apple full kontroll og de bestemmer selv hvilke applikasjoner som skal godkjennes etter en godkjenningsprosess. Dette har hatt mange positive effekter for plattformen, da Apple for eksempel ikke vil la applikasjoner som stadig krasjer komme ut på App Store. Apples godkjenningsprosess blir stadig raskere, og de fleste apper får nå svar innen 5-6 dager.

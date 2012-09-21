@@ -3,7 +3,18 @@ layout: post
 title: Backend for mobile applikasjoner
 ---
 
-Drupal er et gratis publiseringsrammeverk (CMS) med åpen kildekode. Det betyr i praksis at det er titusenvis av utviklere som jobber med å forbedre det hver dag. Det finnes over 15000 brukergenererte moduler som gjør nettutviklere i stand til å komme fort i gang med nettsider av praktisk talt alle typer
+## Rammeverk
+Hotte teknologier vi bruker som backend for apps: 
+
+- Django (Instagram, Disqus, Pinterest)
+- Ruby on Rails (Linkedin, Basecamp)
+- Node.js (Delteknologi hos Microsoft og Google; best for real time apps)
+- Databaser: Mongo Db ("NoSQL") og MySQL.
+
+Samtlige teknologier er Open Source.
+
+## Drupal -når du også trenger et CMS
+Noen kunder trenger ikke bare en app, men også en webside med tradisjonelle CMS-funksjoner ut av boksen. Drupal er et gratis publiseringsrammeverk (CMS) med åpen kildekode. Det betyr i praksis at det er titusenvis av utviklere som jobber med å forbedre det hver dag. Det finnes over 15000 brukergenererte moduler som gjør nettutviklere i stand til å komme fort i gang med nettsider av praktisk talt alle typer
 
 Det internasjonale drupalmiljøet er særdeles bevisst på den mobile revolusjonen og jobber aktivt for å posisjonere seg i forhold til dette markedet. Dette gir utslag på særlig to måter:
 
