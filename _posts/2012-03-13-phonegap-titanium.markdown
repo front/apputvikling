@@ -1,6 +1,7 @@
 ---
 layout: post
 title: PhoneGap vs Native vs Titanium
+description: iOS, Android, Windows, Blackberry, Symbian. Titanium. PhoneGap. Native. Mobil browserapplikasjon.
 ---
 
 ## iOS, Android, Windows, BlackBerry, and Symbian.

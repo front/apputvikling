@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Backend for mobile applikasjoner
+description: Rammeverk. Drupal - når du også trenger et CMS.
 ---
 
 ## Rammeverk

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: HTML5 vs app (trenger jeg en egen app)?
+description: Det er ikke gitt at en app er løsningen på alt; et mobilt nettsted er tross alt  mer bærekraftig, og ikke begrenset av device.
 ---
 
 **Det er ikke gitt at en app er løsningen på alt; et mobilt nettsted er tross alt  mer bærekraftig, og ikke begrenset av device -morgendagens dingser kjenner vi ikke ennå, men vi vet de vil støtte HTML5.**

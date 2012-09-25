@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Utvikling av apps for Android mobil og tablet
+description: Android er nå den mest utbredte plattformen for smartphone og tablets, og det er ikke lenger selvfølgelig at man utvikler apps for iPhone først.
 ---
 **Android er nå den mest utbredte plattformen for smartphone og tablets, og det er ikke lenger selvfølgelig at man utvikler apps for iPhone først, og Android i runde 2; Android står støtt på egne bein.**
 

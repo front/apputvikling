@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Utvikle apps for iPhone + iPad?
+description: Hos oss vil du få en dyktig iPhoneutvikler eller iPadutvikler til disposisjon, eller et lite team av utviklere i kombinasjon med en designer som kjenner mulighetene i iPhone/iPad grensesnittet.
 ---
 **Fortsatt har Apple det mest lukrative markedet innen apps, med en god modell for distribusjon, og med enestående produkter. Hos oss vil du få en dyktig iPhoneutvikler eller iPadutvikler til disposisjon, eller et lite team av utviklere i kombinasjon med en designer som kjenner mulighetene i iPhone/iPad grensesnittet.
 
