@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Utvikling av apps for iOS og Android med Titanium
-description: Titanium er et rammeverk for utvikling av mobile apps som har som hensikt å løse et stort problem for utvikling av mobile apper: segmentering.
+description: Titanium er et rammeverk for utvikling av mobile apps som har som hensikt å løse et stort problem for utvikling av mobile apper, nemlig segmentering.
 ---
 
 **Titanium er en javascriptbasert løsning som gir deg native brukergrensesnitt for både iOS og Android, samt tilgang til det aller meste av annen funksjonalitet du finner i iOS og Android. Plattformen har blitt svært populær.**

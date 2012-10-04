@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Utvikling av apps i Apache Cordova / PhoneGap
-description: Cordova / PhoneGap et rammeverk for utvikling av mobile apps som har som hensikt å løse et stort problem for utvikling av mobile apper: segmentering.
+description: Cordova / PhoneGap et rammeverk for utvikling av mobile apps som har som hensikt å løse et stort problem for utvikling av mobile apper, nemlig segmentering.
 ---
 
 **Med applikasjonen utviklet i HTML-baserte Cordova / PhoneGap får man tilgang til viktige applikasjoner som kamera, aksellerometer og GPS via javascript, men med kort vei til markedet på flere plattformer samtidig.**
