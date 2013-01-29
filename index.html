@@ -90,30 +90,38 @@ description: Utvikling av apps. Kontakt oss i dag!
               <h3>Kontakt oss</h3>
             </div>
             <div class="modal-body">
-              <form class="form-horizontal" method="post" action="/kontakt/mailme.php">
+              <form class="form-horizontal" method="post" action="https://seeeeervice.capsulecrm.com/service/newlead">
+                <input name="FORM_ID" type="hidden" value="95f0d613-2476-4776-b617-08177412460e"> 
+                <input name="COMPLETE_URL" type="hidden" value="http://www.frontkom.no"> 
                 <fieldset>
                   <div class="control-group">
-                    <label class="control-label" for="name">Navn/foretak</label>
+                    <label class="control-label" for="name">Fornavn</label>
                     <div class="controls">
-                      <input type="text" class="span3" id="name" name="name">
+                      <input class="span3" id="first_name" name="FIRST_NAME" type="text" required />
                     </div>
                   </div>
                   <div class="control-group">
-                    <label class="control-label" for="email">Min e-post</label>
+                    <label class="control-label" for="name">Etternavn</label>
                     <div class="controls">
-                      <input type="text" class="span3" id="email" name="email">
+                      <input class="span3" id="last_name" name="LAST_NAME" type="text" required />
                     </div>
                   </div>
                   <div class="control-group">
-                    <label class="control-label" for="phone">Telefonnummer</label>
+                    <label class="control-label" for="name">Email</label>
                     <div class="controls">
-                      <input type="text" class="span3" id="phone" name="phone">
+                      <input class="span3" id="email" name="EMAIL" type="email" required />
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="name">Telefonnummer</label>
+                    <div class="controls">
+                      <input class="span3" id="phone" name="PHONE" type="text">
                     </div>
                   </div>
                   <div class="control-group">
                     <label class="control-label" for="subject">Velg plattform</label>
                     <div class="controls">
-                      <select id="subject" name="subject">
+                      <select id="platform" name="CUSTOMFIELD[Platform]">
                         <option>iPhone/iPad</option>
                         <option>Android</option>
                         <option>HTML5</option>
@@ -126,7 +134,7 @@ description: Utvikling av apps. Kontakt oss i dag!
                   <div class="control-group">
                     <label class="control-label" for="subject">Budsjett</label>
                     <div class="controls">
-                      <select id="subject" name="subject">
+                      <select id="budget" name="CUSTOMFIELD[Budget]">
                         <option>20-50k</option>
                         <option>50-100k</option>
                         <option>100-250k</option>
@@ -139,7 +147,7 @@ description: Utvikling av apps. Kontakt oss i dag!
                   <div class="control-group">
                     <label class="control-label" for="message">Beskrivelse</label>
                     <div class="controls">
-                      <textarea class="input-xlarge" rows="3" id="message" name="message"></textarea>
+                      <textarea class="input-xlarge" rows="3" id="message" name="NOTE"></textarea>
                     </div>
                   </div>
                   <div class="modal-footer">
