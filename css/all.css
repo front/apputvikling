@@ -4,3 +4,6 @@
 {% include css/bootstrap.min.css %}
 {% include css/bootstrap-responsive.min.css %}
 {% include css/style.css %}
+
+/* Override bootstrap modal box height */
+.modal{max-height: none !important;}

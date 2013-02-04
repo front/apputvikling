@@ -3,16 +3,16 @@ $(document).ready(function() {
     // Form submission
     $('form').submit(function() {
       $.post(
-          $(this).attr('action'),
-          $(this).serialize(),
-          function(data){
-              $('form .control-group:first').before(data);
-              if ($('form .alert-success').length) {
-                  $('form input, form select, form textarea').attr('readonly','readonly');
-              }
+        $(this).attr('action'),
+        $(this).serialize(),
+        function(data){
+          $('form .control-group:first').before(data);
+          if ($('form .alert-success').length) {
+            $('form input, form select, form textarea').attr('readonly','readonly');
           }
-      );
-
+        }
+        );
+      $('#myModal').prepend('<div class="alert alert-success">Takk for din henvendelse! Vi kontakter deg snarlig. God dag!</div>');
       return false;
     });
-});
+  });
