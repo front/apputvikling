@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mobil
-description: Vi kan informasjon. Vår brede utviklingserfaring fra web har gitt oss uvurderlig innsikt i hvordan sluttbrukeres tanker og forventninger
+description: Vi kan informasjon. Vår utviklingserfaring fra web har gitt oss uvurderlig innsikt i hvordan sluttbrukeres tanker og forventninger
 ---
 
 - 9 av 10 solgte telefoner i Norge er en smarttelefon. 
