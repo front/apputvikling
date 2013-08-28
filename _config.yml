@@ -1,4 +1,2 @@
 permalink: /:title
 destination: ./_site
-server: true
-auto: true
