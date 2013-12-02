@@ -3,68 +3,88 @@ layout: default
 title: Kontakt oss
 ---
 
-<div class="row">
-  <div class="span8">
-    <form class="form-horizontal" method="post" action="http://getsimpleform.com/messages?form_api_token=3624a2bd5280795ce8c7a8652760e0ba">
-    <input type='hidden' name='redirect_to' value='http://www.apputvikling.no/takk/' />
-        <fieldset>
-          <legend>Ja, jeg ønsker tilbud på utvikling av applikasjon</legend>
-          <div class="control-group">
-            <label class="control-label" for="name">Navn/foretak</label>
-            <div class="controls">
-              <input type="text" class="span3" id="name" name="name">
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="email">Min e-post</label>
-            <div class="controls">
-              <input type="text" class="span3" id="email" name="email">
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="phone">Telefonnummer</label>
-            <div class="controls">
-              <input type="text" class="span3" id="phone" name="phone">
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="subject">Velg plattform</label>
-            <div class="controls">
-              <select id="subject" name="subject">
-                <option>iOS</option>
-                <option>Android</option>
-                <option>HTML5</option>
-                <option>Windows</option>
-                <option>Flere plattformer</option>
-              </select>
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="estimate">Velg budsjett</label>
-            <div class="controls">
-              <select id="estimate" name="estimate">
-                <option>30 - 50k</option>
-                <option>50 - 100k</option>
-                <option>100 - 500k</option>
-                <option>Annet</option>        
-              </select>
-            </div>
-          </div>
-
-          <div class="control-group">
-            <label class="control-label" for="message">Beskrivelse</label>
-            <div class="controls">
-              <textarea class="input-xlarge" rows="5" id="message" name="message"></textarea>
-            </div>
-          </div>
-          <div class="form-actions">
-            <button type="submit" class="btn btn-large btn-info">Send forespørsel</button>
-          </div>
-        </fieldset>
-    </form>
-  </div>
-  <div class="span4">
-    <img src="/img/app-utvikling-iphone-android.png" />
-    <h2>Telefon: 69 30 44 00</h2>
-  </div>
+<div id="mapwrap">
+  <iframe height="450" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.es/maps?t=m&amp;ie=UTF8&amp;ll=52.752693,22.791016&amp;spn=67.34552,156.972656&amp;z=4&amp;output=embed"></iframe>
 </div>
+
+<div class="container">
+  <div class="row sinfo">
+    <div class="col-lg-4">
+      <h4>Info</h4>
+      <br>
+      <div class="cinfo">
+        <img src="/assets/images/icons/clocks.svg" alt="">
+      </div>
+      <p>
+        Mandag til fredag / 7:30 - 17:00<br/>
+        Kontoret er stengt i helgen
+      </p>
+      <hr>
+      <div class="cinfo">
+        <img src="/assets/images/icons/rss.svg" alt="">
+      </div>
+      <p>
+        Torvgaten 64<br/>
+        1632 Gamle Fredrikstad
+      </p>
+      <hr>
+      <div class="cinfo">
+        <img src="/assets/images/icons/android.svg" alt="">
+      </div>
+      <p>
+        +47 69 30 44 00<br/>
+        <a href="mailto:post@front.no">post@front.no</a>
+      </p>
+      <hr>
+    </div><!-- col-lg-4 -->
+    
+    <div class="col-lg-8">
+      <h4>Interessert?</h4>
+      <p>Ja, jeg ønsker tilbud på utvikling av applikasjon</p>
+      <br>
+      <form class="form-horizontal" method="post" action="http://getsimpleform.com/messages?form_api_token=3624a2bd5280795ce8c7a8652760e0ba">
+        <input type='hidden' name='redirect_to' value='http://www.apputvikling.no/takk/' />
+
+        <div class="form-group">
+          <label class="form-label" for="name">Navn/foretak</label>
+          <input type="text" class="form-control" id="name" name="name">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="email">Min e-post</label>
+            <input type="text" class="form-control" id="email" name="email">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="phone">Telefonnummer</label>
+            <input type="text" class="form-control" id="phone" name="phone">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="subject">Velg plattform</label>
+            <select class="form-control" id="subject" name="subject">
+              <option>iOS</option>
+              <option>Android</option>
+              <option>HTML5</option>
+              <option>Flere plattformer</option>
+            </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="estimate">Velg budsjett</label>
+            <select id="estimate" class="form-control" name="estimate">
+              <option>50 - 100k</option>
+              <option>30 - 50k</option>
+              <option>100 - 500k</option>
+              <option>Annet</option>        
+            </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="message">Beskrivelse</label>
+          <textarea class="form-control" rows="5" id="message" name="message"></textarea>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-wide btn-primary">Send forespørsel</button>
+
+      </form>
+            
+    </div><!-- col-lg-8 -->
+  </div><!-- row -->
+</div><!-- container -->
