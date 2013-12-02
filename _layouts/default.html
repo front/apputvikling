@@ -6,14 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="Frontkom">
+    <link rel="shortcut icon" href="/assets/images/favicon/favicon.png">
 
-    <!-- Le styles -->
-    <link href="/css/all.css" rel="stylesheet">
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/flat-ui.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/main.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/revolution.css" media="screen"/>
+  <link rel="stylesheet" href="/assets/css/media-slideshow.css" media="screen"/>
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="/assets/js/html5shiv.js"></script>
+      <script src="/assets/js/respond.min.js"></script>
     <![endif]-->
-  <script type="text/javascript">
+    
+  <script type="text/javascript" src="/assets/js/modernizr.custom.79639.js"></script> 
+    <script type="text/javascript">
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-30600330-1']);
@@ -28,23 +41,22 @@
   </script>
   </head>
 
-  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+  <body>
 
-
-  <!-- Navbar
-    ================================================== -->
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="/">Apputvikling</a>
-          <div class="nav-collapse">
-            <ul class="nav">
-              <li class="">
+          </button>
+          <a class="navbar-brand" href="/">Apputvikling</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="">
                 <a href="/ios">iOS apps</a>
               </li>
                <li class="">
@@ -62,47 +74,56 @@
               <li class="">
                 <a href="/kontakt">Kontakt</a>
               </li>
-            </ul>
-          </div>
-        </div>
+            
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
     </div>
 
+
+  {{ content }}
+  
+  
+  <!-- FOOTER -->
+  <div id="f">
     <div class="container">
       <div class="row">
+        <h5 class="centered">Kontakt oss for apps</h5>
+        <br>
+        
+        <div class="col-lg-4">
+          <p>OM <b>FRONT</b> APPUTVIKLING</p>
+          <p class="muted"><a href="http://www.apputvikling.no">Apputvikling.no</a> er en avdeling av <a href="http://www.frontkom.no">Frontkom</a>, og holder til i Gamlebyen i Fredrikstad. <br><strong>Telefon: 69 30 44 00</strong>.</p>
+        </div>
 
-        {{ content }}
-
-      </div>
-
-    <br>
-
-     <!-- Footer
-      ================================================== -->
-      <footer class="center">
-        <p class="muted"><a href="http://www.apputvikling.no">Apputvikling.no</a> er en avdeling av <a href="http://www.frontkom.no">Frontkom</a>, og holder til i Gamlebyen i Fredrikstad. <strong>Telefon: 69 30 44 00</strong>.</p>
-      </footer>
-
+        <div class="col-lg-4">
+          <p>Hovedkontor</p>
+          <p><small>
+            Torvgaten 64<br/>
+            1632 Gamle Fredrikstad<br/>
+            +47 69 30 44 00
+          </small></p>
+        </div>
+        
+        <div class="col-lg-4">
+          <p>Vårt nyhetsbrev</p>
+          <p><small>Vi drifter nettmagasinet <a href="http://frontmag.no">Frontmag</a> - abonnér gjerne på vårt nyhetsbrev og få nyttige reportasjer</small></p>
+          <p><input type="text" placeholder="Epost her" class="form-control flat" /></p>
+        </div>
+        
+      </div><!-- /row -->
     </div><!-- /container -->
+  </div><!-- /Footer -->
+  
 
 
-
-    <!-- Le javascript
+    <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!--<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <!-- script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/assets/js/jquery.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/retina.js"></script>
 
-    <script src="/js/bootstrap-transition.js"></script>
-    <script src="/js/bootstrap-modal.js"></script>
-    <script src="/js/bootstrap-dropdown.js"></script>
-    <script src="/js/bootstrap-scrollspy.js"></script>
-    <script src="/js/bootstrap-popover.js"></script>
-    <script src="/js/bootstrap-button.js"></script>
-    <script src="/js/bootstrap-collapse.js"></script>
-    <script src="/js/bootstrap-carousel.js"></script>
-    <script src="/js/apputvikling.js"></script>
-    
     <!-- StatCounter -->
     <script type="text/javascript">
       var sc_project=8171467;
