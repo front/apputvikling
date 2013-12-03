@@ -733,3 +733,8 @@ body {
 	float: left;
 	margin-right: 10px;
 }
+
+/* Frontkom tweaks */
+body {
+	word-wrap: break-word;
+}
