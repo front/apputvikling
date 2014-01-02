@@ -738,3 +738,16 @@ body {
 body {
 	word-wrap: break-word;
 }
+
+.navbar-toggle {
+	margin-top: 22px;
+}
+
+/* Responsive tweaks Frontkom */
+
+@media (max-width: 640px) {
+  h1 {
+  	font-size: 48px;
+  }
+}
+
